@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/palousis-business-website/static/css/main.809669d6.css",
+    "main.js": "/palousis-business-website/static/js/main.2e46c4e6.js",
+    "static/js/453.e714295e.chunk.js": "/palousis-business-website/static/js/453.e714295e.chunk.js",
+    "static/media/header-img.png": "/palousis-business-website/static/media/header-img.3047488351e1fc47da00.png",
+    "static/media/storeFront.png": "/palousis-business-website/static/media/storeFront.ac02b460c5285befeb58.png",
+    "static/media/contactUs.png": "/palousis-business-website/static/media/contactUs.12afec4928394c1074e4.png",
+    "static/media/logo01.svg": "/palousis-business-website/static/media/logo01.f0f3765fa14836d794809c38f220dbb8.svg",
+    "static/media/logo06.svg": "/palousis-business-website/static/media/logo06.7fcfefcaa956903796a1150cbef55634.svg",
+    "static/media/logo05.svg": "/palousis-business-website/static/media/logo05.e583f97db1f0a140ca92e3cf84c88b12.svg",
+    "static/media/georgiadis.svg": "/palousis-business-website/static/media/georgiadis.039d9ade9120b5afac0a8d2db62abdab.svg",
+    "static/media/king.svg": "/palousis-business-website/static/media/king.07d4bc452616d7af9bb5e4685ec39ce0.svg",
+    "static/media/clubaki.svg": "/palousis-business-website/static/media/clubaki.0e396921750f778b66792c1f3217fde5.svg",
+    "static/media/slick.svg": "/palousis-business-website/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/palousis-business-website/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/palousis-business-website/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/palousis-business-website/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/palousis-business-website/index.html",
+    "main.809669d6.css.map": "/palousis-business-website/static/css/main.809669d6.css.map",
+    "main.2e46c4e6.js.map": "/palousis-business-website/static/js/main.2e46c4e6.js.map",
+    "453.e714295e.chunk.js.map": "/palousis-business-website/static/js/453.e714295e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.809669d6.css",
+    "static/js/main.2e46c4e6.js"
+  ]
+}
