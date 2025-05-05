@@ -46,14 +46,25 @@ export default function Contact() {
               </SumbitWrapper>
             </div>
             <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6 flex">
-              <div style={{ width: "50%" }} className="flexNullCenter flexColumn">
+              <div style={{ width: "30%" }} className="flexNullCenter flexColumn">
                 <ContactImgBox>
                   <img src={ContactImg1} alt="office" className="radius6" />
                 </ContactImgBox>
               </div>
-              <div style={{ width: "50%" }}>
+              <div style={{ width: "70%" }}>
                 <div style={{ marginTop: "100px" }}>
-                  <img src={ContactImg3} alt="office" className="radius6" />
+                  <MapContainer className="radius6">
+                    <iframe
+                      src="https://www.google.com/maps/embed/v1/place?q=φιλικης+εταιρειας+33,+καλαμαρια&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
+                      width="100%"
+                      height="200"
+                      style={{ border: 0 }}
+                      allowFullScreen="true"
+                      loading="lazy"
+                      referrerPolicy="no-referrer-when-downgrade"
+                      title="Palousis Location"
+                    ></iframe>
+                  </MapContainer>
                 </div>
               </div>
             </div>
@@ -119,6 +130,12 @@ const SumbitWrapper = styled.div`
     width: 100%;
     margin-bottom: 50px;
   }
+`;
+const MapContainer = styled.div`
+  overflow: hidden;
+  width: 100%;
+  height: 200px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 `;
 
 
