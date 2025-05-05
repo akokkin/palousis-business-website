@@ -9,25 +9,25 @@ export default function Pricing() {
       <div className="whiteBg">
         <div className="container">
           <HeaderInfo>
-            <h1 className="font40 extraBold">Ενδεικτικός Τιμοκατάλογος</h1>
+            <h1 className="font40 extraBold">Ανάλυση Υπηρεσιών</h1>
             <p className="font13">
-              Τιμοκατάλογος βασικών υπηρεσιών 
               <br />
-              (Το ύψος ενδέχεται να μεταβληθεί βάσει των ιδιαιτεροτήτων ή της έκτασης της εκάστοτε εργασίας.)
+              Αναλαμβάνουμε πληθώρα υπηρεσιών, κάποιες εκ των οποίων δεν αναφέρονται στον παρακάτω πίνακα.
+              <br />Μπορείτε να επικοινωνήσετε μαζί μας για να σας προσφέρουμε την καλύτερη λύση που ταιριάζει στις ανάγκες σας.
             </p>
           </HeaderInfo>
           <TablesWrapper className="flexSpaceNull">
             <TableBox>
               <PricingTable
                 icon="heatpump"
-                price="80.00€"
-                title="Συντήρηση Επαγγελματικής Μονάδας"
-                text="Αφορά την συντήρηση μίας (1) επαγγελματικής μονάδας κλιματισμού οροφής. (Κασέτα)"
+                title="Εγκατάσταση/Συντήρηση Επαγγελματικής Μονάδας"
+                text="Αφορά την συντήρηση επαγγελματικών μονάδων κλιματισμού οροφής. "
                 offers={[
                   { name: "Καθαρισμός Εσωτερικής Μονάδας", cheked: true },
                   { name: "Καθαρισμός Εξωτερικής Μονάδας", cheked: true },
                   { name: "Χημικός-Αντιμικροβιακός καθαρισμός", cheked: true },
                   { name: "Έλεγχος διαρροών & αποχέτευσης", cheked: true },
+                  { name: "Διάγνωση ελαττωμάτων & συμπλήρωση ψυκτικού υγρού", cheked: true },
                 ]}
                 action={() => alert("clicked")}
               />
@@ -35,14 +35,14 @@ export default function Pricing() {
             <TableBox>
               <PricingTable
                 icon="aircon"
-                price="30.00€"
-                title="Συντήρηση Οικιακής Μονάδας"
-                text="Αφορά την συντήρηση μίας (1) οικιακής μονάδας split unit."
+                title="Εγκατάσταση/Συντήρηση Οικιακής Μονάδας"
+                text="Αφορά την συντήρηση οικιακών μονάδων (Split/Multi/VRV/Unit)."
                 offers={[
                   { name: "Καθαρισμός Εσωτερικής Μονάδας", cheked: true },
                   { name: "Καθαρισμός Εξωτερικής Μονάδας", cheked: true },
                   { name: "Χημικός-Αντιμικροβιακός καθαρισμός", cheked: true },
                   { name: "Έλεγχος διαρροών & αποχέτευσης", cheked: true },
+                  { name: "Διάγνωση ελαττωμάτων & συμπλήρωση ψυκτικού υγρού", cheked: true },
                 ]}
                 action={() => alert("clicked")}
               />
@@ -50,8 +50,7 @@ export default function Pricing() {
             <TableBox>
               <PricingTable
                 icon="whiteappliance"
-                price="20.00€"
-                title="Διάγνωση βλάβης Λευκής Συσκευής"
+                title="Διάγνωση/Επισκευή βλάβης Λευκής Συσκευής"
                 text="Αφορά την διάγνωση βλάβης μίας (1) λευκής συσκευής. (Υφίσταται ξεχωριστή χρέωση επισκευής της συσκευής)"
                 offers={[
                   { name: "Έλεγχος/Διάγνωση βλαβης", cheked: true },
